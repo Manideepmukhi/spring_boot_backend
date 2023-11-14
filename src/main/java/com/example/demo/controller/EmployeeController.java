@@ -16,7 +16,6 @@ import com.example.demo.model.Employee;
 import com.example.demo.repository.EmployeeRepository;
 import org.springframework.web.bind.annotation.*;
 @RestController
-@RequestMapping("springbootbackend-production-24b9.up.railway.app")
 @ComponentScan(basePackages={"com.example.repository"})
 public class EmployeeController{
 	
